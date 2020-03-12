@@ -3,8 +3,8 @@
 This project work is an exploration into the possibility of using sensor data from machine to predict the lifetime of a coponent.
 The component data in this case belong to run to failure data of turbo fan from NASA [1].There were two main objectives from the project
 
-1.Predict the remaining useful lifetime of the component
-2.To identify if the component will break within a window time span
+1. Predict the remaining useful lifetime of the component
+2. To identify if the component will break within a window time span
 
 ## Data
 
@@ -21,11 +21,11 @@ for its advantage with dynamic graphs, library availability and its compatibiliy
 
 The basic model of consists of following layers  layers
 
-LSTM1 
-Dropout
-LSTM2
-Dropout
-Linear 
+1. LSTM1 
+2. Dropout
+3. LSTM2
+4. Dropout
+5. Linear 
 
 Dropout
 Sigmoid (absent for regression)
@@ -42,5 +42,5 @@ The visualisation for the different metrics has been carried out in tensorboard
 
 #References
 
-1.https://c3.nasa.gov/dashlink/resources/139/
-2.https://github.com/Azure-Samples/MachineLearningSamples-PredictiveMaintenance
+1.[Data Source] (https://c3.nasa.gov/dashlink/resources/139/)
+2.[Model Reference] (https://github.com/Azure-Samples/MachineLearningSamples-PredictiveMaintenance)
