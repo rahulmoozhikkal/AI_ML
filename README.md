@@ -25,10 +25,8 @@ The basic model of consists of following layers  layers
 2. Dropout
 3. LSTM2
 4. Dropout
-5. Linear 
-
-Dropout
-Sigmoid (absent for regression)
+5. Linear
+6. Sigmoid (absent for regression)
 
 ## Training
 
