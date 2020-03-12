@@ -3,8 +3,8 @@
 This project work is an exploration into the possibility of using sensor data from machine to predict the lifetime of a coponent.
 The component data in this case belong to run to failure data of turbo fan from NASA [1].There were two main objectives from the project
 
-1. Predict the remaining useful lifetime of the component
-2. To identify if the component will break within a window time span
+1. Predict the remaining useful lifetime of the component (Regression Problem)
+2. To identify if the component will break within a given window time span(Classification problem)
 
 ## Data
 
