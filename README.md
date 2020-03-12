@@ -40,7 +40,7 @@ accuracy,recall and specificity
 
 The visualisation for the different metrics has been carried out in tensorboard
 
-#References
+## References
 
 1. [Data Source] (https://c3.nasa.gov/dashlink/resources/139/)
 2. [Model Reference] (https://github.com/Azure-Samples/MachineLearningSamples-PredictiveMaintenance)
